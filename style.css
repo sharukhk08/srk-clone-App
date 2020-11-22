@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+
+/* NAVBAR SECTION #f05454*/
+
+.home .navbar .navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.home .navbar .navbar-brand:hover {
+    color: #fff;
+}
+
+.home .navbar li {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: #16a596;
+    line-height: 20px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.home .dropdown-menu a {
+    color: #fff;
+}
+
+.home .dropdown-menu a:hover {
+    color: #000;
+}
+
+.home .dropdown-menu {
+    background-color: #3D7488;
+}
+
+.navbar ul {
+    margin-right: 70px;
+    margin-top: 10px;
+}
+
+.logo-nav {
+    background-size: cover;
+    width: 5%;
+    height: 5%;
+}
+
+.navbar__bgColor.scrolled {
+    background-color: #3D7488;
+    height: 60px;
+    padding: 18px 0;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
+}
+
+.navbar__List li a {
+    color: #fff;
+}
+
+
+/* HOME SECTION */
+
+.home {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home__header img {
+    background-size: cover;
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -450px;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.product-container {
+    background-color: #EBF1FA;
+}
+
+.product-container .card-body {
+    text-align: center;
+}
+
+.product-container__2 .card-4 {
+    margin-left: 13rem;
+}
+
+.product-container__2 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.product-container__3 {
+    padding-bottom: 4rem;
+}
+
+
+/* END HOME SECTION */
+
+
+/* FOOTER SECTION */
+
+.footer-bottom {
+    padding: 18px 0;
+    text-align: center;
+}
+
+.footer-bottom .madeBy-content p {
+    color: #3D7488;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.footer-bottom .madeBy-content span {
+    color: #97BAC3;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.footer-bottom .madeBy-content span a:hover {
+    color: #3D7488;
+    text-decoration: none;
+}
+
+
+/*END  FOOTER SECTION */
